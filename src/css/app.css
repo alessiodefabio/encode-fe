@@ -1,0 +1,136 @@
+
+html, body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../images/form_background.jpg") repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
+}
+
+#bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+#root, .all-screen-div{
+    width: 100%;
+    height: 100%;
+}
+/*
+.root{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.login-form{
+    width: 400px;
+    height: 200px;
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#div-logo{
+    padding-top: 5%;
+
+}
+
+.div-logo-menu{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#div-logo img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.login-button{
+    background-color: #43d9e7 !important;
+    color: black !important;
+}
+
+.login-button:hover{
+    background-color: #6dbae7 !important;
+    color: black !important;
+}
+
+/*.div-menu {
+    width: 25%;
+    height: 100% !important;
+    float: left;
+    background-color: rosybrown;
+    border-collapse: collapse;
+    margin: 2% !important;
+}
+
+.div-body {
+    width: 38%;
+    height: 100% !important;
+    float: left;
+    background-color: royalblue;
+    border-collapse: collapse;
+    margin: 2% !important;
+}
+
+.div-options {
+    width: 25%;
+    height: 100% !important;
+    position: relative;
+    float: right;
+    background-color: yellow;
+    border-collapse: collapse;
+    margin:2% !important;
+}*/
+
+.column {
+    float: left;
+    height: 100%;
+
+}
+
+.div-options, .div-menu {
+    width: 20%;
+}
+
+.div-body {
+    width: 60%;
+    background-color: white;
+}
+
+/* Clear floats after the columns */
+.home-div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebar-menu{
+    margin: auto !important;
+    position: relative !important;
+}
+
+.option-dropdown{
+
+}
