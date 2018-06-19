@@ -11,7 +11,7 @@ class SidebarMenu extends Component{
         /*const { activeItem } = this.state;*/
 
         return(
-            <div>
+            <div className="sidebar-div">
                 <Menu className="sidebar-menu" vertical size='large'>
                     <Menu.Item >
                         <Input placeholder='Search...' />
@@ -47,25 +47,6 @@ class SidebarMenu extends Component{
                             <Dropdown.Item icon='edit' text='Edit Profile' />
                             <Dropdown.Item icon='globe' text='Choose Language' />
                             <Dropdown.Item icon='settings' text='Account Settings' />
-                        </Dropdown.Menu>
-                    </Dropdown>
-                    <Dropdown className='' item text='Option' icon='wrench' simple>
-                        <Dropdown.Menu >
-                            <Dropdown.Item>
-                                <Icon name='dropdown' />
-                                <span className='text'>New</span>
-
-                                <Dropdown.Menu>
-                                    <Dropdown.Item>Document</Dropdown.Item>
-                                    <Dropdown.Item>Image</Dropdown.Item>
-                                </Dropdown.Menu>
-                            </Dropdown.Item>
-                            <Dropdown.Item>Open</Dropdown.Item>
-                            <Dropdown.Item>Save...</Dropdown.Item>
-                            <Dropdown.Item>Edit Permissions</Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Header>Export</Dropdown.Header>
-                            <Dropdown.Item>Share</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Menu>

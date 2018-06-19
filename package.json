@@ -8,7 +8,8 @@
     "react-dom": "^16.4.0",
     "react-router-dom": "latest",
     "react-scripts": "1.1.4",
-    "semantic-ui-react": "^0.80.2"
+    "semantic-ui-react": "^0.80.2",
+    "d3-selection": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
