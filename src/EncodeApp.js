@@ -3,10 +3,8 @@ import {Route} from 'react-router-dom';
 import LoginPage from "./components/pages/LoginPage";
 import SignUpPage from "./components/pages/SignUpPage";
 import HomePage from './components/pages/HomePage';
-/*import LoginForm from './components/forms/LoginForm';
-import './images/Encode_logo.png';*/
+import './images/Encode_logo.png';
 import './css/app.css';
-
 
 class EncodeApp extends Component {
   render() {
@@ -20,5 +18,6 @@ class EncodeApp extends Component {
     );
   }
 }
+
 
 export default EncodeApp;
