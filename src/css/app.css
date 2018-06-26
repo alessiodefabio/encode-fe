@@ -23,6 +23,9 @@ html, body{
     min-height: 100%;
 }
 
+/*.all-screen-div {
+    background-color: aliceblue;
+}*/
 
 
 #root, .all-screen-div{
@@ -54,8 +57,8 @@ html, body{
 }
 
 .div-logo-menu{
-    width: 28%;
-    height: 28%;
+    width: 30%;
+    height: 30%;
     margin-left: 30%;
     margin-top: 1%;
 }
@@ -110,10 +113,10 @@ html, body{
 
 }
 
-.div-options, .div-menu {
+/*.div-menu {
     width: 20%;
-
-}
+    height: 80%;
+}*/
 
 /*.div-body {
     width: 60%;
@@ -133,39 +136,85 @@ html, body{
 .sidebar-menu{
     /*margin: auto !important;*/
     position: relative !important;
-    width: 100% !important;
+    /*width: 100% !important;*/
 }
 
 .div-body{
     width:60%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
-.div-options, .div-body{
+.div-options, .div-body, .div-menu{
 
+    margin-top: 1%;
     height: 80%;
-    margin-top: 5%;
-    border-radius: 7px;
     background-color: white;
 }
 
-.sidebar-div, .div-body, .div-options {
+.div-body, .div-options, .div-menu {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 }
 
-.sidebar-div:hover, .div-body:hover, .div-options:hover {
+.div-body:hover, .div-options:hover, .div-menu:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.sidebar-div{
+/*.sidebar-div{
     margin-left: 9% !important;
     margin-right: 9% !important;
-    border-radius: 10px;
+}*/
+
+.div-options, .div-menu{
+    width: 17%;
 }
 
 .div-options{
-    margin-left: 1.7%;
-    border-radius: 10px;
-    width: 17%;
+    margin-right: 2%;
 }
+
+.div-menu{
+    margin-left: 2%;
+}
+
+/*.div-top{
+    width: 80%;
+    height: 10%;
+    float: right;
+}*/
+
+
+.div-top {
+    width: 96%;
+    height: 10%;
+    /*margin: auto;*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+
+}
+
+/*.div-top-menu{
+!*    width: 60%;
+    height: 10%;
+    margin-left: 20%;
+    margin-right: 20%;*!
+
+}*/
+
+.top-menu-icon, .top-menu-item{
+
+    color:white !important;;
+}
+
+/*.top-menu{
+    padding-left: 15%;
+    padding-right: 15%;
+}*/
+
+
+
